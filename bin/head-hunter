@@ -1,0 +1,4 @@
+#!/usr/bin/env node
+
+
+var hh = require("../lib/head-hunter");

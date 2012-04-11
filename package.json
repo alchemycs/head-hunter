@@ -1,0 +1,16 @@
+{
+    "name":         "head-hunter",
+    "description":  "Hunt heads in web requests. Let's you proxy HTTP requests and watch headers for requests matching your description",
+    "version":      "0.0.1",
+    "url":          "https://github.com/alchemycs/head-hunter",
+    "keywords":     ["proxy", "local", "header", "http", "monitor", "watch", "debug"],
+    "homepage":     "",
+    "repository":   { "type":"git", "url":"https://alchemycs@github.com/alchemycs/head-hunter.git"},
+    "bugs":         { "url":"https://github.com/alchemycs/head-hunter/issues" },
+    "author":       { "name":"Michael McHugh", "url":"http://alchemycs.github.com", "email":"developer@yrucalling.me" },
+    "contributors": [],
+    "main":         "./lib/head-hunter.js",
+    "directories":  { "lib":"./lib" },
+    "bin":          { "head-hunter": "./bin/head-hunter" },
+    "engines":      { "node":">=0.6.14" }
+}
