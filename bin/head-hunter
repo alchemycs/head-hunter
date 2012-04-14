@@ -2,3 +2,20 @@
 
 
 var hh = require("../lib/head-hunter");
+
+var help = [
+  'usage: head-hunder <url regex>',
+  '',
+  '    <url regex>    A url expression to match when displaying header info',
+  '                     e.g. ^http://www.example.com:8080/interesting_page.html'
+].join('\n');
+
+if (process.argv.length != 3) {
+    console.log(help);
+    process.exit(0);
+}
+
+var url = process.argv[2];
+
+var hunter = new(hh.HeadHunter)(url);
+hunter.initialize();
