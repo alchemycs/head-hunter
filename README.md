@@ -27,6 +27,11 @@ The package is set for a minimum node requiremnt of 0.6.14 simply because that
 is what is installed on my system when I wrote it. It may work with earlier
 versions but I can't verify it.
 
+##Installation
+
+    $ npm install head-hunter -g
+
+
 ##What is it?
 This node based application acts as a local proxy running on your local system.
 Simply configure it with a `regex` to watch and whenever a request is made to the
