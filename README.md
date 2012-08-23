@@ -1,3 +1,4 @@
+[![build status](https://secure.travis-ci.org/alchemycs/head-hunter.png)](http://travis-ci.org/alchemycs/head-hunter)
 #Head Hunter
 
 ##Summary
